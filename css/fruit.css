@@ -1,0 +1,99 @@
+body{
+  background-image: linear-gradient(white,white, #ff3366);
+}
+/* Header Conatiner*/
+.headerContainer{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto;
+  padding: 0 200px 0 200px;
+  background-color: grey;
+}
+.headerContainerLeft{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background: green;
+  height: auto;
+}
+#search{
+  width: 25vh;
+  height: 4vh;
+}
+.headerContainerRight{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background: green;
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0 200px 20px 200px;
+  gap: 20px;
+  /* background-color: grey; */
+}
+.container > div{
+  /* background-color: grey; */
+  /* padding: 20px; */
+}
+.style1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  position: relative;
+}
+.topGrid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  gap: 20px;
+}
+.leftDiv{
+  /* background-color: green; */
+  text-align: center;
+  /* padding: 20px; */
+}
+.rightDiv{
+  /* background-color: green; */
+  text-align: left;
+  /* padding: 20px; */
+}
+.fruitTitle{
+  text-align: center;
+  background-color: #ff0040;
+  padding: 5px;
+}
+#padInfo{
+  padding: 20px;
+}
+.iconsDesign{
+  position: relative;
+  /* background-color: yellow; */
+  height: 2vh;
+}
+.iconsDesignLeft{
+  position: absolute;
+  width: 50%;
+  left: 0;
+  padding-left: 20px;
+  /* background-color: green; */
+}
+.iconsDesignRight{
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 0;
+  text-align: right;
+  padding-right: 20px;
+  /* background-color: blue; */
+}
+.style2{
+  background-color: white;
+  padding-bottom: 20px;
+}
+.style3{
+  background-color: white;
+}
+.style4{
+  background-color: white;
+}
