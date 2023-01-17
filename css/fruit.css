@@ -6,7 +6,7 @@ body{
 .headerContainer{
   display: grid;
   gap: 20px;
-  grid-template-columns: auto auto;
+  grid-template-columns: 60% 40%;
   /* padding: 0 200px 0 200px; */
   /* background-color: grey; */
   padding-left: 15vw;
@@ -41,12 +41,30 @@ body{
 }
 .headerContainerRight{
   display: flex;
-  align-items: center;
+  align-items: bottom;
   /* gap: 20px;
   grid-template-columns: auto auto auto; */
   /* background: green; */
+  position: relative;
   height: auto;
-  padding: 3px;
+}
+.rightGrid{
+  /* background-color: purple; */
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 2vw;
+  position: absolute;
+  bottom: -25%;
+  left: 0;
+  max-width: 100%;
+  /* transform: translate(0%, -0%); */
+}
+.rightRoundButton{
+  width: 3.5vw;
+  height: 3.5vw;
+  background-color:#d30236;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px grey;
 }
 .container{
   display: grid;
