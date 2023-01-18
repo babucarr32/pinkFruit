@@ -65,6 +65,18 @@ body{
   background-color:#d30236;
   border-radius: 50%;
   box-shadow: 0 0 10px 2px grey;
+  position: relative;
+  /* text-align: center; */
+}
+.roundLeftIcon{
+  margin: 0;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rightRoundButton:hover{
+  background-color:#ca0234;
 }
 .container{
   display: grid;
@@ -133,9 +145,18 @@ body{
   background-color: white;
   padding-bottom: 20px;
 }
+.style2:hover{
+  transform: scale(1.01);
+}
 .style3{
   background-color: white;
 }
+.style3:hover{
+  transform: scale(1.01);
+}
 .style4{
   background-color: white;
+}
+.style4:hover{
+  transform: scale(1.01);
 }
