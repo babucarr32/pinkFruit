@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=JetBrains+Mono:ital,wght@1,500&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body onload="changeColors()">
     <header>
       <div class="headerContainer">
         <div class="headerContainerLeft">
@@ -20,23 +20,23 @@
             <input id="search" style="margin-left: 10px;" type="text" name="" value="" placeholder="Search...">
           </div>
           <div class="">
-            <button id="searchButton" onclick="changeColors()">
+            <button id="searchButton">
               <i class="material-icons" style="font-size:2vw; padding: 6px;">search</i>
             </button>
           </div>
         </div>
         <div class="headerContainerRight">
           <div class="rightGrid">
-            <div class="rightRoundButton">
+            <div id="rightRoundButtonID" class="rightRoundButton">
               <i class="material-icons roundLeftIcon" style="font-size:2vw;">shopping_cart</i>
             </div>
-            <div class="rightRoundButton" style="background-color:#ffffff;">
+            <div id="" class="rightRoundButton" style="background-color:#ffffff;">
               <i class="material-icons roundLeftIcon" style="font-size:2vw;">shop</i>
             </div>
-            <div class="rightRoundButton">
+            <div id="rightRoundButtonID2" class="rightRoundButton">
               <i class="material-icons roundLeftIcon" style="font-size:2vw;">contact_support</i>
             </div>
-            <div class="rightRoundButton" style="background-color:#ffffff;">
+            <div id="" class="rightRoundButton" style="background-color:#ffffff;">
               <i class="material-icons roundLeftIcon" style="font-size:2vw;">account_circle</i>
             </div>
           </div>
@@ -51,7 +51,7 @@
             <img src="quaritsch-photography-lZ8onQ1wuY8-unsplash.jpg" style="width:100%">
           </div>
           <div class="rightDiv">
-            <h1 style="color: #ff0040; font-size: 2.5vw;">New Family Favorites</h1>
+            <h1 id="welcomeText" style="color: #ff0040; font-size: 2.5vw;">New Family Favorites</h1>
             <p style="font-size: 1.35vw;">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt in tellus vitae consequat. Quisque consectetur augue purus, vel porta erat sodales vel. Donec gravida orci erat, eget condimentum lectus egestas eget. Curabitur hendrerit tortor quis erat convallis lobortis. Donec elementum scelerisque semper.
             </p>
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div  class="style2">
-        <div class="fruitTitle">
+        <div id="fruitTitleID" class="fruitTitle">
           <h2 style="font-size: 2vw;">Strawberry</h2>
         </div>
         <img src="davies-designs-studio-MDZOGRtfuAg-unsplash.jpg" style="max-width:100%">
@@ -69,7 +69,7 @@
         </p>
         <div class="iconsDesign">
           <div class="iconsDesignLeft">
-            <a href="#" style="text-decoration: none; color:  #ff0040; font-size: 1.35vw;">More</a>
+            <a id="more" href="#" style="text-decoration: none; color:  #ff0040; font-size: 1.35vw;">More</a>
           </div>
           <div class="iconsDesignRight">
             <a href="#">
@@ -81,7 +81,7 @@
         </div>
       </div>
       <div class="style3">
-        <div class="fruitTitle">
+        <div id="fruitTitleID3" class="fruitTitle">
           <h2 style="font-size: 2vw;">Strawberry</h2>
         </div>
         <img src="engin-akyurt-4W9O3_tq8cI-unsplash.jpg" style="max-width:100%">
@@ -91,7 +91,7 @@
         </p>
         <div class="iconsDesign">
           <div class="iconsDesignLeft">
-            <a href="#" style="text-decoration: none; color:  #ff0040; font-size: 1.35vw;">More</a>
+            <a id="more3" href="#" style="text-decoration: none; color:  #ff0040; font-size: 1.35vw;">More</a>
           </div>
           <div class="iconsDesignRight">
             <a href="#">
@@ -103,7 +103,7 @@
         </div>
       </div>
       <div class="style4">
-        <div class="fruitTitle">
+        <div id="fruitTitleID4" class="fruitTitle">
           <h2 style="font-size: 2vw;">Strawberry</h2>
         </div>
         <img src="quaritsch-photography-lZ8onQ1wuY8-unsplash.jpg" style="width:100%">
@@ -113,7 +113,7 @@
         </p>
         <div class="iconsDesign">
           <div class="iconsDesignLeft">
-            <a href="#" style="text-decoration: none; color:  #ff0040; font-size: 1.35vw;">More</a>
+            <a id="more4" href="#" style="text-decoration: none; color:  #ff0040; font-size: 1.35vw;">More</a>
           </div>
           <div class="iconsDesignRight">
             <a href="#">
